@@ -6,7 +6,7 @@ public:
             freq[s[i]]++;
         }
         for(int i=0;i<s.size();i++){
-            if(freq[s[i]] == 1){
+            if(freq[s[i]]==1){
                 return i;
             }
         }
